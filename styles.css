@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/*ЗАГАЛЬНІ СТИЛІ**********/
+body {
+    background-color: gray;
+    max-width: 100vw;
+}
+
+.h2_all {
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 48px;
+}
+
+.button_all {
+    width: 288px;
+    height: 72px;
+    background-color: rgba(150, 46, 255, 1);
+    border-radius: 0 10px 10px 10px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* HEADER */
+.top_header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding-right: 180px;
+    align-items: center;
+}
+
+.nav_header {
+    display: flex;
+    margin-left: auto;
+}
+
+.list_nav {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+}
+
+.item_nav {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*SECTION GREETING **********/
+.header {
+    position: relative;
+    margin-bottom: 114px;
+    max-width: 1920px;
+    height: 960px;
+}
+
+.img_1 {
+    width: 100%;
+    background-image: url("img/view-roulette-game-casino.png");
+}
+
+/*SECTION O NAS *********/
+.section_oNas {
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 150px;
+}
+
+.div_section_oNas_1 {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 89px;
+}
+
+.div_description {
+    margin-right: 60px;
+}
+
+.p_oNas_1 {
+    max-width: 615px;
+    margin-right: 60px;
+}
+
+.picture_oNas {
+    display: flex;
+    background: 0 10px 10px;
+}
+
+.img_2 {
+    max-width: 480px;
+    margin-right: 60px;
+}
+
+.img_3 {
+    max-width: 345px;
+}
+
+.div_section_oNas_2 {
+    max-width: 100%;
+    display: flex;
+}
+
+.img_4 {
+    max-width: 615px;
+    margin-right: 60px;
+}
+
+.p_oNas_2 {
+    max-width: 885px;
+    margin-bottom: 70px;
+}
+
+
+/*SECTION NASZ POKOJ **********/
+.section_naszPokoj {
+    width: 100%;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 180px;
+}
+
+.p_pokoje {
+    margin-bottom: 48px;
+}
+
+.card_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 32px;
+    margin-bottom: 60px;
+}
+
+.card_naszPokoj {
+    max-width: 750px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 0 10px 10px;
+}
+
+.name_card {
+    width: 654px;
+    margin-bottom: 32px;
+}
+
+.description_naszPokoj {
+    max-width: 654px;
+    margin-bottom: 64px;
+}
+
+.div_card {
+    max-width: 654px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+}
+
+.img_naszPokoj {
+    margin-right: 32px;
+}
+
+.buttonZobach {
+    display: block;
+    margin: 0 auto;
+}
+
+/*SECTION KAZINO **********/
+.section_kazyno {
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 140px;
+}
+
+.backgroundIMG {
+    max-width: 1560px;
+    height: 400px;
+    padding: 76px 404px;
+    background-image: url("img/view-roulette-game-casino.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 180px;
+}
+
+.description_naszeZalety {
+    color: white;
+}
+
+.card_container_2 {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 60px;
+}
+
+.card_kazino {
+    width: 345px;
+    height: 688px;
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+    border-radius: 0 10px 10px;
+}
+
+.img_gra_kazino {
+    margin-bottom: 32px;
+}
+
+.name_gra_kazino {
+    margin-bottom: 20px;
+}
+
+.btn_gra_kazino {
+    display: block;
+    margin: 0 auto;
+}
+
+/*SECTION skontaktuj **********/
+.section_skontaktuj {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 140px;
+}
+
+.backgroundIMG_skontaktuj {
+    max-width: 1560px;
+    height: 735px;
+    background-image: url("img/12695.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div_form {
+    /* display: block; */
+    /* flex-direction: column; */
+    /* width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 85px 70px;
+    color: white; */
+    background-color: rgb(0 0 0 / 63%);
+    max-width: 47%;
+    height: inherit;
+    border-radius: 0 10px 10px;
+    padding: 85px 70px;
+}
+
+.h3_form {
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 48px;
+}
+
+.input_group {
+    background: none;
+    max-width: 595px;
+    background-color: rgba(255, 255, 255, 19%);
+    border-radius: 0 10px 10px;
+}
+
+.qa_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+.inp_data {
+    height: 72px;
+}
+
+.input_text {
+    height: 173px;
+}
+
+.btn_form {
+    background-color: rgba(255, 234, 46, 1);
+    color: rgba(30, 30, 30, 1);
+}
