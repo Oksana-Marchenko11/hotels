@@ -40,7 +40,7 @@ body {
     display: flex;
     position: absolute;
     top: 0;
-    width: 1920px;
+    width: 100%;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
@@ -55,6 +55,7 @@ body {
 
 .list_nav {
     display: flex;
+    column-gap: 40px;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -65,73 +66,74 @@ body {
 /*SECTION GREETING **********/
 .header {
     position: relative;
-    margin-bottom: 114px;
+    margin-bottom: 94px;
     max-width: 1920px;
     height: 960px;
 }
 
 .img_1 {
     width: 100%;
-    background-image: url("img/view-roulette-game-casino.png");
+    height: 100%;
+    background-image: url("img/view-game-gambling-table-casino\ 1.jpg");
+}
+
+.section_main {
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 /*SECTION O NAS *********/
 .section_oNas {
-    padding-left: 180px;
-    padding-right: 180px;
-    margin-bottom: 150px;
+    margin-bottom: 94px;
 }
 
 .div_section_oNas_1 {
-    max-width: 100%;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 89px;
 }
 
 .div_description {
-    margin-right: 60px;
-}
-
-.p_oNas_1 {
-    max-width: 615px;
-    margin-right: 60px;
-}
-
-.picture_oNas {
-    display: flex;
-    background: 0 10px 10px;
+    width: 32%;
 }
 
 .img_2 {
-    max-width: 480px;
-    margin-right: 60px;
+    width: 32%;
+    border-radius: 0 32px 32px 32px;
 }
 
 .img_3 {
-    max-width: 345px;
+    width: 32%;
+    border-radius: 0 32px 32px 32px;
 }
 
 .div_section_oNas_2 {
-    max-width: 100%;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .img_4 {
-    max-width: 615px;
-    margin-right: 60px;
+    width: 33%;
+    border-radius: 0 32px 32px 32px;
+}
+
+.img_Onas {
+    overflow: hidden;
 }
 
 .p_oNas_2 {
-    max-width: 885px;
-    margin-bottom: 70px;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
 /*SECTION NASZ POKOJ **********/
 .section_naszPokoj {
     width: 100%;
-    padding-left: 180px;
-    padding-right: 180px;
     margin-bottom: 180px;
 }
 
@@ -142,6 +144,7 @@ body {
 .card_container {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 32px;
@@ -149,9 +152,9 @@ body {
 }
 
 .card_naszPokoj {
-    max-width: 750px;
+    max-width: 700px;
     background-color: white;
-    padding: 48px;
+    padding: 38px;
     border-radius: 0 10px 10px;
 }
 
@@ -183,8 +186,6 @@ body {
 
 /*SECTION KAZINO **********/
 .section_kazyno {
-    padding-left: 180px;
-    padding-right: 180px;
     margin-bottom: 140px;
 }
 
@@ -234,8 +235,6 @@ body {
 
 /*SECTION skontaktuj **********/
 .section_skontaktuj {
-    padding-left: 180px;
-    padding-right: 180px;
     padding-bottom: 140px;
 }
 
